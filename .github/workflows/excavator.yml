@@ -8,7 +8,7 @@ jobs:
   excavate:
     name: Excavate
     runs-on: windows-latest
-    permissions: read-all
+    permissions: write-all
     steps:
       - uses: actions/checkout@main
       - name: Excavate
